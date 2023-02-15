@@ -1,7 +1,12 @@
 .feedback {
   background-color: #efefef;
+}
+
+.feedback__wrapper {
   padding: 40px 405px 132px 405px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 30px 30px;
+  width: 1920px;
+  margin: 0 auto;
 }

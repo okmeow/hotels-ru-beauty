@@ -1,9 +1,14 @@
 .promo {
   background-color: #66c05d;
+}
+
+.promo__wrapper {
   background-image: url("../img/promo-background.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
   padding: 192px 405px 170px 405px;
+  width: 1920px;
+  margin: 0 auto;
 }
 
 .promo__title {
