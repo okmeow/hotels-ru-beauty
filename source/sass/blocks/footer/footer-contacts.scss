@@ -1,0 +1,42 @@
+.footer-contacts {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.footer-contacts__address {
+  margin: 0 105px 0 0;
+  color: #000000;
+}
+
+.footer-contacts__phone {
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  margin: 0 40px 0 0;
+
+  &:hover {
+    color: #085a00;
+  }
+
+  &:active {
+    color: #0b8100;
+  }
+}
+
+.footer-contacts__button {
+  border: 2px solid #66c05d;
+  border-radius: 40px;
+  padding: 12px 26px 13px 27px;
+  background-color: #ffffff;
+  cursor: pointer;
+  user-select: none;
+
+  &:hover {
+    border: 2px solid #0fb500;
+  }
+
+  &:active {
+    border: 2px solid #075600;
+  }
+}

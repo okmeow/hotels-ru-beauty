@@ -1,0 +1,46 @@
+.social__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.social__item:not(:last-child) {
+  margin: 0 20px 0 0;
+}
+
+.social__item a {
+  display: block;
+  border: 2px solid #66c05d;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  position: relative;
+  color: #66c05d;
+
+  &:hover {
+    color: #0faf00;
+    border: 2px solid #0faf00;
+  }
+
+  &:active {
+    color: #086000;
+    border: 2px solid #086000;
+  }
+}
+
+.social__icon{
+  position: absolute;
+  left: 8px;
+  top: 10px;
+
+  &--youtube {
+    top: 13px;
+  }
+
+  &--vk {
+    top: 13px;
+    left: 5px;
+  }
+}

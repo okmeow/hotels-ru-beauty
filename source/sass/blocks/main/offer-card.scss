@@ -1,0 +1,50 @@
+.offer-card {
+  background-color: #ffffff;
+  padding: 25px 30px 25px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &:hover {
+    box-shadow: 0 0 5px 2px #66c05d;
+  }
+}
+
+.offer-card__description {
+  text-align: center;
+  line-height: 20px;
+  margin: 0 0 20px 0;
+}
+
+.offer-card__price {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #000000;
+  margin: 0 0 20px 0;
+}
+
+.offer-card__rouble {
+  font-family: "Rouble", "Arial", sans-serif;
+}
+
+.offer-card__link {
+  display: inline-block;
+  vertical-align: baseline;
+  padding: 9px 40px;
+  background-color: #66c05d;
+  border-radius: 30px;
+  color: #ffffff;
+  letter-spacing: 0.05em;
+  user-select: none;
+
+  &:hover {
+    background-color: #27a71b;
+  }
+
+  &:active {
+    background-color: #0b8700;
+  }
+}
