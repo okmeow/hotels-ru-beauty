@@ -10,10 +10,14 @@
   }
 }
 
+.offer-card__image {
+  margin: 0 0 20px 0;
+}
+
 .offer-card__description {
   text-align: center;
   line-height: 20px;
-  margin: 0 0 20px 0;
+  margin: 0 0 15px 0;
 }
 
 .offer-card__price {
@@ -23,7 +27,7 @@
   text-align: center;
   letter-spacing: 0.05em;
   color: #000000;
-  margin: 0 0 20px 0;
+  margin: 0 0 10px 0;
 }
 
 .offer-card__rouble {
