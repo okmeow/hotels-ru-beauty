@@ -5,10 +5,15 @@
 .promo__wrapper {
   background-image: url("../img/promo-background.jpg");
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: 100% 100%;
   padding: 192px 405px 195px 405px;
   width: 1920px;
   margin: 0 auto;
+
+  @media (min-resolution: 2dppx) {
+    background-image: url("../img/promo-background@2x.jpg");
+    background-size: 100% 100%;
+  }
 }
 
 .promo__title {
